@@ -1,0 +1,5 @@
+python scripts/ingest_to_chroma.py (ingest)
+
+uvicorn app.fastapi_app:app --reload --port 8000 (API)
+
+streamlit run app/streamlit_app.py (UI)
