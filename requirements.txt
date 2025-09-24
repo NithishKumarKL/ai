@@ -1,0 +1,10 @@
+chromadb
+sentence-transformers
+transformers
+torch        # if needed for embedder
+fastapi
+uvicorn
+streamlit
+pandas
+requests
+python-dotenv
