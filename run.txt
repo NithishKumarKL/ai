@@ -3,3 +3,19 @@ python scripts/ingest_to_chroma.py (ingest)
 uvicorn app.fastapi_app:app --reload --port 8000 (API)
 
 streamlit run app/streamlit_app.py (UI)
+
+
+import requests
+
+url = "https://genailab.tcs.in/v1/embeddings"
+headers = {
+    "Authorization": "Bearer sk-xxxx",
+    "Content-Type": "application/json"
+}
+data = {
+    "model": "azure/genuilab-ms-text-embedding-3-large",
+    "input": "The quick brown fox jumps over the lazy dog"
+}
+
+res = requests.post(url, headers=headers, json=data)
+print(res.json())
