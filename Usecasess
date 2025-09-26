@@ -1,0 +1,25 @@
+Here is the readable text extracted from the image:
+
+***
+**TCS AI Fridays Hackathon**
+
+**Use Case#: 8**
+
+**Title name:**
+CoPilot for Insurance Brokerage Agencies
+
+**Problem Statement:**
+Insurance brokerage agencies work closely with customers. A faster, personalized customer experience so that they can have tailored offerings
+
+**Steps:**
+- Provide a multi-lingual conversational chatbot that can support knowledge base queries
+- Based on agent's interaction, dynamically retrieve select attributes of a customer profile.
+- Use LLM for identification of customer risk profile
+- Use LLM to recommend the best fit product
+- Generate a personalized sales collateral for the customer
+
+**Data Requirements:**
+Customer repository data (CRM), Customer social feeds, Risk profile segmentation, Knowledge base document repo
+
+**Expected Output:**
+CoPilot assistant for brokers to generate sales collateral based on customer risk profile
